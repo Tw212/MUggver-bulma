@@ -1,4 +1,14 @@
+
 .field{
     display: flex;
     flex-direction: column; 
+
+}
+.menu{
+    display: none;
+}
+
+
+#min-header {
+    color: #F0C987;
 }
