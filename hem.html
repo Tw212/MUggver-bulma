@@ -7,17 +7,24 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
     <link rel="stylesheet" href="design.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script.js"></script>
 
 </head>
 <body>
-        <div class="flex-container ">
+        
             <div class="header is-flex is-justify-content-space-evenly is-flex-direction-row is-size-1" id="min-header">
-                <div><i class='bx bx-menu is-size-3'></i></div>
+                <div onclick="Meny()"><i class='bx bx-menu is-size-3'></i></div>
                 <div id="rubrik" class="title">Muggverk UF</div>
                 <div><i class='bx bx-moon is-size-3'></i></div>
             </div>
+            <div class="columns is-multiline" id="info">
+              <div class="column is-4 is-offset-8 ">First column</div>
+              <div class="column">Second column</div>
+              <div class="column">Third column</div>
+              <div class="column">Fourth column</div>
+            </div>
 
-            <aside class="menu">
+            <aside class="menu" id="menypa">
                 <p class="menu-label">General</p>
                 <ul class="menu-list">
                   <li><a>Dashboard</a></li>
@@ -45,6 +52,6 @@
                   <li><a>Balance</a></li>
                 </ul>
               </aside>
-        </div>
+        
 </body>
 </html>
