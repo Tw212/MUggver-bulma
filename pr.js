@@ -11,3 +11,9 @@ function Meny(){
     
     }
 }
+let b = true;
+function mugg(){
+    if(b){
+        
+    }
+}
