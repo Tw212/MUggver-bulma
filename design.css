@@ -8,3 +8,15 @@
 #min-header {
     background-color: #F0C987;
 }
+.mugg{
+    
+    background-color: #eeee;
+    border-radius: 70px;
+    
+}
+#text1{
+    display: none;
+}
+#text2{
+    display:none;
+}
