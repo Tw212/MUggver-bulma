@@ -5,6 +5,7 @@ function textett(){
         document.getElementById("text1").style.display = "block"
         document.getElementById("text2").style.display = "none"
         a = false
+        b = true
     }
     else{
         document.getElementById("text1").style.display = "none"
@@ -19,9 +20,11 @@ function texttvå(){
         document.getElementById("text1").style.display = "none"
         document.getElementById("text2").style.display = "block"
         b = false
+        a = true;
     }
     else{
         document.getElementById("text2").style.display = "none"
+        
        
         b = true
     
