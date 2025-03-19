@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="design.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="sm.js"></script>
+    
 </head>
 <body>
-    
+    <div class="header is-flex is-justify-content-space-evenly is-flex-direction-row is-size-1" id="min-header">
+        <div onclick="Meny()"><i class='bx bx-menu is-size-3'></i></div>
+        <div id="rubrik" class="title">Muggverk UF</div>
+        <div><i class='bx bx-moon is-size-3'></i></div>
+    </div>
+    <div onclick="Tryck()" class="column is-5 is-offset-4 mt-6" id="Mugg"><img src="https://res.cloudinary.com/dxxvmvvyj/image/upload/t_ahlens-transformations-bg-removed/c_limit,w_1096/f_auto/q_auto/v1/products/bg_removed/61/00/55/23APHEFZFP_61005572_A_front.jpg?_a=BAVAZGAP0" alt=""></div>
+    <div class="column is-offset-4">
+        <p id="poängnummer">Poäng <span id="poängvärde">0</span></p>
+        <p id="klickv">klick värde 1</p>
+    </div>
+    <aside class="menu" id="menypa">
+        <p class="menu-label">Allmänt</p>
+        <ul class="menu-list">
+          <li><a href="hem.html">hem</a></li>
+          <li><a href="Produkter.html">Produkter</a></li>
+          <li><a href="samlamuggar.html">Samla muggar</a></li>
+          <li><a href="kontaktaoss.html">Kontakta oss</a></li>
+        </ul>
+      </aside>
 </body>
 </html>
