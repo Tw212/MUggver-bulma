@@ -17,12 +17,4 @@ function Meny(){
     
     }
 }
-let b = true
-function Dark(){
-    if(b){
-        const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
-    }
-    else{
-        const systemSettingLight = window.matchMedia("(prefers-color-scheme: light)");
-    }
-}
+

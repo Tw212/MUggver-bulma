@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="theme-light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,6 +33,12 @@
                   <li><a href="kontaktaoss.html">Kontakta oss</a></li>
                 </ul>
               </aside>
-        
+              <script>
+              function Dark(){
+                let html= document.getElementsByTageName("html")
+                html[0].classList.toggle("theme-light")
+                html[0].classList.toggle("theme-dark")
+            }
+          </script>
 </body>
 </html>

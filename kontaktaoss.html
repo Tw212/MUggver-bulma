@@ -10,6 +10,7 @@
     <script src="ko.js"></script>
 </head>
 <body>
+ 
   <div class="header is-flex is-justify-content-space-evenly is-flex-direction-row is-size-1" id="min-header">
     <div onclick="Meny()"><i class='bx bx-menu is-size-3'></i></div>
     <div id="rubrik" class="title">Muggverk UF</div>
@@ -20,12 +21,12 @@
     <ul class="menu-list">
       <li><a href="hem.html">hem</a></li>
       <li><a href="Produkter.html">Produkter</a></li>
-      <li><a>Samla muggar</a></li>
+      <li><a href="samlamuggar.html">Samla muggar</a></li>
       <li><a href="kontaktaoss.html">Kontakta oss</a></li>
     </ul>
   </aside>
 
-<div id="Kontakta">
+<div id="Kontakta mt-6">
       <div class="field">
         <label class="label">Namn</label>
         <div class="control">
@@ -60,14 +61,15 @@
 
   
 
-  <div class="field is-grouped">
-    <div class="control">
-      <button class="button is-link">Sicka</button>
+    <div class="field is-grouped">
+      <div class="control">
+        <button onclick="dåligt()" class="button is-link">Skicka</button>
+      </div>
+      <div class="control">
+        <button onclick="bra()" class="button is-link is-light">Avbryt</button>
+      </div>
     </div>
-    <div class="control">
-      <button class="button is-link is-light">Avbryt</button>
-    </div>
-  </div>
-</div> 
+  </div> 
+
 </body>
 </html>
