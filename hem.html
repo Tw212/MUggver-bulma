@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="theme-light">
+<html lang="en" data-theme="light" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,16 +15,16 @@
             <div class="header is-flex is-justify-content-space-evenly is-flex-direction-row is-size-1" id="min-header">
                 <div onclick="Meny()"><i class='bx bx-menu is-size-3'></i></div>
                 <div id="rubrik" class="title">Muggverk UF</div>
-                <div onclick="Dark()"><i class='bx bx-moon is-size-3'></i></div>
-            </div>
-            <div class="columns is-multiline" id="info">
-              <div class="column is-4 is-offset-8 ">First column</div>
-              <div class="column is-4">Second column</div>
-              <div class="column is-4">Third column</div>
-              <div class="column is-4">Fourth column</div>
+                <div onclick="Dark()" id="moon"><i class='bx bx-moon is-size-3'></i></div>
+                <div id="sun"><i class='bx bx-sun'></i></div>
             </div>
 
-            <aside class="menu" id="menypa">
+            <div class="columns is-multiline" id="info">
+              <div class="column image is-4 is-offset-7 mt-6"><img class="is-rounded" src="logotype.png" alt=""></div>
+              <div class="column is-4 is-offset-2 is-size-1">Bästa kvalitet</div>
+            </div>
+
+            <aside class="menu mt-2 ml-4" id="menypa">
                 <p class="menu-label">Allmänt</p>
                 <ul class="menu-list">
                   <li><a href="hem.html">hem</a></li>
@@ -33,12 +33,6 @@
                   <li><a href="kontaktaoss.html">Kontakta oss</a></li>
                 </ul>
               </aside>
-              <script>
-              function Dark(){
-                let html= document.getElementsByTageName("html")
-                html[0].classList.toggle("theme-light")
-                html[0].classList.toggle("theme-dark")
-            }
-          </script>
+              
 </body>
 </html>

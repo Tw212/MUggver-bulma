@@ -18,3 +18,17 @@ function Meny(){
     }
 }
 
+function Dark(){
+    let html = document.getElementsByTageName("html")
+    html[0].data.toggle('theme=dark')
+    html[0].data.toggle('theme=light')
+}
+/*let b= true
+function Dark(){
+    if(b){
+        data.theme = "light";
+    }
+    else{
+        data.theme = "dark";
+    }
+}*/
