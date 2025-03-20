@@ -13,6 +13,7 @@ function Meny(){
     
     }
 }
+
 function dåligt(){
     alert("fuck off")
 }
