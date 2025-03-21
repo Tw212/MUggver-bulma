@@ -20,3 +20,16 @@ function dåligt(){
 function bra(){
     alert("good boy")
 }
+function Dark(){
+    let html = document.getElementsByTagName("html")
+    document.getElementById("moon").style.display = "none"
+    html[0].classList.toggle('theme-dark')
+    document.getElementById("sun").style.display = "block"
+  
+}
+function Light(){
+    let html = document.getElementsByTagName("html")
+    html[0].classList.toggle('theme-dark')
+    document.getElementById("moon").style.display = "block"
+    document.getElementById("sun").style.display = "none"
+}
