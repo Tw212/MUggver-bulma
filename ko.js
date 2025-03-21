@@ -15,7 +15,7 @@ function Meny(){
 }
 
 function dåligt(){
-    alert("fuck off")
+    alert("nej")
 }
 function bra(){
     alert("good boy")
